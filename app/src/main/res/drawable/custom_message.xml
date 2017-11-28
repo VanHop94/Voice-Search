@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Khi click -->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- Mau khi click vao -->
+            <solid android:color="#2196F3" />
+            <!-- Do rong va mau vien -->
+            <stroke android:width="0dp" android:color="#999" />
+            <!-- Do bo goc -->
+            <corners android:radius="5dp" />
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+        </shape>
+    </item>
+    <!-- Khi chua click -->
+    <item>
+        <shape>
+
+            <!-- Mau khi click vao -->
+            <solid android:color="#2196F3" />
+            <!-- Do rong va mau vien -->
+            <stroke android:width="0dp" android:color="#999" />
+            <!-- Do bo goc -->
+            <corners android:radius="5dp" />
+            <padding android:bottom="7dp" android:left="7dp" android:right="7dp" android:top="7dp" />
+        </shape>
+    </item>
+</selector>
